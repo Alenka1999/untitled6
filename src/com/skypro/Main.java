@@ -6,12 +6,14 @@ public class Main {
 	// Задание 1
         int i = 1;
         while (i <= 10) {
-            System.out.print(i); i ++;
+            System.out.print(i++);
         }
+        System.out.println();
         int i1= 10;
         for (i1 = 10; i1 >=1; i1--) {
-            System.out.println(i1);
+            System.out.print(i1);
         }
+        System.out.println();
 
         // Задание 2
 
@@ -21,6 +23,14 @@ public class Main {
         }
 
         // Задание 3
+        int x = 2022;
+        int y = x - 200;
+        int z = x + 100;
+        for (y = x - 200; y <= x + 100; y = y + 79) {
+            System.out.println(y);
+        }
+
+
 
 
     }
